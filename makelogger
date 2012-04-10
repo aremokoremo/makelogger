@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#log file name "log_YYYYMMDD_HHMMSS.txt"
+NAME=`date '+log_%Y%m%d_%H%M%S.txt'`
+
+#execute make and output logfile
+time make $@ 2>&1 | tee $NAME
