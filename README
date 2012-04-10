@@ -1,0 +1,32 @@
+makelogger
+
+[Overview]
+ Wrapper of "make" command.
+ when "makelogger" executed
+ - make is executed
+ - logfile is generated (YYYYMMDD_HHMMSS.txt)
+
+[Author]
+ aremokoremo
+
+[Contents]
+
+ ├── README
+ ├── install.sh
+ └── makelogger
+
+[How to install application]
+ $ cd <where install.sh and makelogger is existing>
+ $ sh install.sh
+
+[How to use]
+ $ cd <dir makefile existing>
+ $ makelogger <option>
+ 
+ #<option> is "make"'s option
+
+[Web site]
+ http://d.hatena.ne.jp/aremokoremo/20120410/1334048365
+
+[history]
+ 2012/04/10 first ver created.
